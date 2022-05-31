@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EliasAfara/Solidity-Dapp-Twitter-Clone.git"
+  },
+  "keywords": [
+    "Solidity"
+  ],
+  "author": "Elias Afara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EliasAfara/Solidity-Dapp-Twitter-Clone/issues"
+  },
+  "homepage": "https://github.com/EliasAfara/Solidity-Dapp-Twitter-Clone#readme",
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.6",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@openzeppelin/contracts": "^4.6.0",
+    "chai": "^4.3.6",
+    "dotenv": "^16.0.1",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.6.8",
+    "hardhat": "^2.9.7"
+  }
+}
