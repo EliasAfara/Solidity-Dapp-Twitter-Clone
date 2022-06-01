@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  font-family: -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    'Roboto',
+    'Oxygen',
+    'Ubuntu',
+    'Cantarell',
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.app {
+  display: flex;
+  height: 100%;
+  width: 600px;
+  padding: 0 10px;
+}
+
+.Button__wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.MetaMask__LoginButton {
+  color: white;
+  background: black;
+  box-shadow: rgb(0 0 0 / 10%) 0px 2px 4px;
+  font-family: inherit;
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  line-height: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  -webkit-font-smoothing: antialiased;
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  transition: all 0.15s ease 0s;
+  font-weight: 600;
+  font-size: 1rem;
+  min-width: 48px;
+  padding: 0px 32px;
+  height: 48px;
+  border: 0px;
+  border-radius: 4px;
+}
+
+.MetaMask__LoginButton>span {
+  display: inherit;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.MetaMask__LoginButton-SVG {
+  display: block;
+  height: 24px;
+  width: 24px;
+  margin-right: 0.5rem;
+}
