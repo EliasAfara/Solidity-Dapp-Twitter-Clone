@@ -60,7 +60,7 @@ Make sure you have installed [Git](https://git-scm.com/book/en/v2/Getting-Starte
 
 Then clone the repo, install dependencies and start the server by running all these commands:
 
-```text
+```Bash
 git clone https://github.com/EliasAfara/Solidity-Dapp-Twitter-Clone.git
 cd Solidity-Dapp-Twitter-Clone/server
 npm i
