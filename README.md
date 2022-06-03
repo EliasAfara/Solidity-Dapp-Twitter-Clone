@@ -112,7 +112,7 @@ After deploying your smart contract, you can copy the generated contract address
 ```text
 MIT License
 
-Copyright (c) 2020 Happy Singh
+Copyright (c) 2022 Elias Afara
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
